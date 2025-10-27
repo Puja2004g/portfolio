@@ -8,12 +8,29 @@
 
 /* ==== COLORS ==== */
 :root {
-  --bg-color: #2A004E;
-  --accent: #500073;
-  --highlight: #C62300;
-  --button: #F14A00;
-  --text-light: #fff;
+  --bg-color: #0D1B2A;        
+  --accent: #1B263B;          
+  --highlight: #00B4D8;      
+  --button: #00B4D8;          
+  --text-light: #E0E1DD;      
 }
+
+
+/* :root {
+  --bg-color: #0F2027;        
+  --accent: #203A43;          
+  --highlight: #00ADB5;       
+  --button: #00ADB5;          
+  --text-light: #EEEEEE;      
+} */
+
+/* :root {
+  --bg-color: #0E0E0E;
+  --accent: #1C1C1C;
+  --highlight: #D4AF37;
+  --button: #D4AF37;
+  --text-light: #F5F5F5;
+} */
 
 /* ==== NAVBAR ==== */
 .navbar {
