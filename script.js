@@ -1,9 +1,26 @@
-// Toggle mobile navbar
+// ===== Toggle Mobile Navbar =====
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("open");
+});
+
+// ===== Theme Toggle (Dark / Light) =====
+const themeToggle = document.getElementById("theme-toggle");
+
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("light-theme");
+
+  // Toggle icon (moon/sun)
+  const icon = themeToggle.querySelector("i");
+  if (document.body.classList.contains("light-theme")) {
+    icon.classList.remove("fa-moon");
+    icon.classList.add("fa-sun");
+  } else {
+    icon.classList.remove("fa-sun");
+    icon.classList.add("fa-moon");
+  }
 });
 
 // ===== Smooth Navbar Highlight on Scroll =====

@@ -22,6 +22,8 @@
             </ul>
         </nav>
         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+
     </header>
 
     <!-- ===== HOME SECTION ===== -->
@@ -30,7 +32,13 @@
             <h1>Hello, I'm <span>Puja</span></h1>
             <h2>Creative Web Developer</h2>
             <p>A passionate learner who loves creating and exploring new ideas through technology and design.</p>
-            <a href="#projects" class="btn">View My Work</a>
+
+            <div class="home-buttons">
+                <a href="assets/resume.pdf" class="btn primary-btn" download>📄 Download Resume</a>
+                <a href="#projects" class="btn secondary-btn">🚀 View My Work</a>
+            </div>
+
+
         </div>
     </section>
 
@@ -58,7 +66,8 @@
                     creativity, logic, and problem-solving abilities.
                 </p>
                 <p>
-                    I'm always eager to learn new tools, take on exciting challenges, and keep growing as a developer and designer.
+                    I'm always eager to learn new tools, take on exciting challenges, and keep growing as a developer
+                    and designer.
                 </p>
                 <a href="#projects" class="btn">See My Projects</a>
             </div>
@@ -66,46 +75,106 @@
     </section>
 
 
-   <!-- ===== PROJECTS SECTION ===== -->
-<section id="projects" class="projects">
-    <div class="projects-container">
-        <h2 class="section-title">My Projects</h2>
-        <p class="section-subtitle">
-            Here are a few of my favorite projects — designed and developed with passion.
-        </p>
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="projects-container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">
+                Here are a few of my favorite projects — designed and developed with passion.
+            </p>
 
-        <div class="project-grid">
-            <!-- Project 1 (with demo video) -->
-            <div class="project-card">
-                <video src="portfolio_video.mp4" controls poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%" height="auto"></video>
-                <div class="project-info">
-                    <h3>Personal Portfolio</h3>
-                    <p>A sleek and responsive personal website built using HTML, CSS, and JavaScript.</p>
-                    <a href="#" class="btn">View Details</a>
+            <div class="project-grid">
+                <!-- Project 1 (with demo video) -->
+                <div class="project-card">
+                    <video src="portfolio_video.mp4" controls
+                        poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%"
+                        height="auto"></video>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A sleek and responsive personal website built using HTML, CSS, and JavaScript.</p>
+                        <a href="https://github.com/Puja2004g/portfolio" target="_blank" class="btn">View Details</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <video src="portfolio_video.mp4" controls poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%" height="auto"></video>
-                <div class="project-info">
-                    <h3>E-Commerce UI</h3>
-                    <p>An interactive front-end design for an online store with smooth animations and a modern layout.</p>
-                    <a href="#" class="btn">View Details</a>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <video src="portfolio_video.mp4" controls
+                        poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%"
+                        height="auto"></video>
+                    <div class="project-info">
+                        <h3>E-Commerce UI</h3>
+                        <p>An interactive front-end design for an online store with smooth animations and a modern
+                            layout.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <video src="portfolio_video.mp4" controls poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%" height="auto"></video>
-                <div class="project-info">
-                    <h3>Task Manager App</h3>
-                    <p>A simple JavaScript-based task tracker that helps users organize daily activities efficiently.</p>
-                    <a href="#" class="btn">View Details</a>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <video src="portfolio_video.mp4" controls
+                        poster="https://via.placeholder.com/400x250.png?text=Project+Demo" width="100%"
+                        height="auto"></video>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>A simple JavaScript-based task tracker that helps users organize daily activities
+                            efficiently.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+<section id="skills" class="skills">
+  <h2 class="section-title">My Skills</h2>
+  <p class="section-subtitle">Here’s a quick overview of the technologies I’m familiar with.</p>
+
+  <div class="skills-container">
+
+    <div class="skill">
+      <i class="fab fa-html5"></i>
+      <h3>HTML</h3>
+      <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+      <span>Intermediate</span>
     </div>
+
+    <div class="skill">
+      <i class="fab fa-css3-alt"></i>
+      <h3>CSS</h3>
+      <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+      <span>Intermediate</span>
+    </div>
+
+    <div class="skill">
+      <i class="fab fa-js"></i>
+      <h3>JavaScript</h3>
+      <div class="progress-bar"><div class="progress" style="width: 40%;"></div></div>
+      <span>Beginner</span>
+    </div>
+
+    <div class="skill">
+      <i class="fab fa-java"></i>
+      <h3>Java</h3>
+      <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+      <span>Intermediate</span>
+    </div>
+
+    <div class="skill">
+      <i class="fab fa-python"></i>
+      <h3>Python</h3>
+      <div class="progress-bar"><div class="progress" style="width: 45%;"></div></div>
+      <span>Beginner</span>
+    </div>
+
+    <div class="skill">
+      <i class="fas fa-code"></i>
+      <h3>C++</h3>
+      <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+      <span>Intermediate</span>
+    </div>
+
+  </div>
 </section>
 
 
@@ -136,7 +205,8 @@
                     </p>
                     <p>
                         <strong>LinkedIn:</strong>
-                        <a href="https://www.linkedin.com/in/puja-guchhait/" target="_blank">https://www.linkedin.com/in/puja-guchhait/</a>
+                        <a href="https://www.linkedin.com/in/puja-guchhait/"
+                            target="_blank">https://www.linkedin.com/in/puja-guchhait/</a>
                     </p>
                     <p>
                         <strong>GitHub:</strong>
